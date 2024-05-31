@@ -1,0 +1,144 @@
+body {
+    background-color: #f44336; /* Background color */
+    color: #333; /* Text color */
+}
+.navbar {
+    background-color: rgba(244, 67, 54, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 16px; /* Adjust padding */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #fff;
+    transition: color 0.3s ease;
+    line-height: 1; /* Set line height to normal */
+}
+
+.nav-item .nav-link {
+    color: #fff;
+    transition: color 0.3s ease;
+    line-height: 1; /* Set line height to normal */
+}
+
+.nav-item .nav-link.active {
+    font-weight: bold;
+}
+
+.nav-item .nav-link.active:hover {
+    color: #fff;
+}
+
+
+.container {
+    margin-top: 20px;
+}
+
+.movie-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.movie-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px 0 0 10px;
+}
+
+.card {
+    border: 1px solid transparent; /* Removed black color border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.list-group-item {
+    border-color: #dee2e6;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #fff; /* White background color */
+}
+
+.playlist-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.movie-details {
+    margin-top: 20px;
+}
+
+.movie-list {
+    list-style: none;
+    padding: 0;
+}
+
+.movie-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.movie-item img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.no-playlist {
+    color: red;
+    font-weight: bold;
+}
+
+#generatedURL {
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 10px; /* Add padding */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Grey border */
+    display: none;
+}
+
+/* Add hover effect to movie details */
+.card-body:hover {
+    background-color: rgba(0, 0, 0, 0.05); /* Light grey background color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow on hover */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+
+@media (min-width: 768px) {
+    .col-md-7 {
+        flex: 0 0 60%; /* 60% width for the image column */
+    }
+    .col-md-5 {
+        flex: 0 0 40%; /* 40% width for the content column */
+    }
+}
