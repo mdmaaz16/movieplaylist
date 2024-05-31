@@ -3,6 +3,11 @@
 ## Description
 Movie Playlist Maker is a web application that allows users to create and manage their own movie playlists. It utilizes the OMDB API to fetch movie details and stores user information, playlists, and movies in a MySQL database. The application is built with HTML, CSS, JavaScript, AJAX, jQuery, and PHP, and is hosted on the InfinityFree cloud platform.
 
+Website Link hosted in infinity Free Cloud Hosting Platform 
+
+**(Please Note that if have the website is showing like Dangerous Site, Go to Details->this unsafe site  The site will be visible**
+http://movieplaylist.infinityfreeapp.com/fasal/index.php
+
 **Set up the environment:**
 
 Install XAMPP from Apache Friends.
@@ -41,5 +46,25 @@ Add selected movies to your created playlists.
 Manage Playlists:
 ![image](https://github.com/mdmaaz16/movieplaylist/assets/171310868/da300330-ad05-4f43-88a3-43a7f016a641)
 
+If the playlist is made Public anyone with the url can access them
+![image](https://github.com/mdmaaz16/movieplaylist/assets/171310868/b74de551-c137-43e7-ba89-322dd9e0a5f6)
 
-View, edit, or delete your playlists and the movies within them.
+Url pasted in different tab
+![image](https://github.com/mdmaaz16/movieplaylist/assets/171310868/5d3b046c-41e7-49f1-96c8-ec34ffb55458)
+
+User can add Multiple Movies
+![image](https://github.com/mdmaaz16/movieplaylist/assets/171310868/1983e158-80e1-406f-9bbc-8e925dd2f1ef)
+
+The Final Result after adding
+![image](https://github.com/mdmaaz16/movieplaylist/assets/171310868/27e5b44e-1d48-44ed-8bb9-fbe972e47615)
+
+Movie details stored in Database (Email is the primary key which will act as a foreign key in all the tables) Playlist_id is primary key which will act as foreign key in playlist_movies table. 
+![image](https://github.com/mdmaaz16/movieplaylist/assets/171310868/a7658340-fdf9-454b-acdd-072622a09da9)
+
+**OMDB API Key:**
+Obtain an API key from OMDB API.
+
+
+
+
+
